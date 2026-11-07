@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Compilación de Next.js
+.next/
+out/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Registros y temporales
+*.log
+.env*.local

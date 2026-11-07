@@ -1,0 +1,21 @@
+{
+  "source": "World Bank — World Development Indicators (API abierta v2)",
+  "license": "CC BY 4.0 (Banco Mundial); indicadores FAO/UNICEF/OMS según se indica",
+  "dateRange": "1990:2026",
+  "downloadedAt": "2026-11-05T03:38:28.772Z",
+  "indicators": [
+    "SN.ITK.DEFC.ZS",
+    "SN.ITK.DEFC",
+    "SN.ITK.MSFI.ZS",
+    "SN.ITK.SVFI.ZS",
+    "SH.STA.STNT.ZS",
+    "SH.STA.WAST.ZS",
+    "SP.POP.TOTL",
+    "SI.POV.DDAY",
+    "NY.GDP.PCAP.PP.KD",
+    "AG.PRD.FOOD.XD",
+    "SI.POV.GINI",
+    "SM.POP.REFG",
+    "AG.LND.AGRI.ZS"
+  ]
+}

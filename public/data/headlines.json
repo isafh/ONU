@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-11-04",
+  "edition": "SOFI 2026",
+  "reportTitle": "The State of Food Security and Nutrition in the World 2026",
+  "publisher": "FAO, FIDA, UNICEF, PMA y OMS",
+  "published": "2026-07-21",
+  "doi": "https://doi.org/10.4060/cd8306en",
+  "pressRelease": "https://www.fao.org/newsroom/detail/un-report--global-hunger-levels-ease-for-third-consecutive-year-as-regional-disparities-persist/en",
+  "figures": {
+    "hungerPeople": 645000000,
+    "hungerPrevalence": 7.8,
+    "hungerPeoplePrevYear": 659000000,
+    "hungerPrevalence2024": 8.1,
+    "hungerPrevalence2022": 8.6,
+    "msfiPrevalence": 25.8,
+    "msfiPeople": 2100000000,
+    "msfiPrevalence2024": 27.1,
+    "msfiPrevalence2020": 28.7,
+    "unaffordableHealthyDietPeople": 2690000000,
+    "unaffordableHealthyDietPrevalence": 32.7,
+    "healthyDietCostPpp": 4.28,
+    "africaHungryPeople": 309000000,
+    "africaHungerPrevalence": 20.0,
+    "africaHungerPrevalence2024": 20.3,
+    "asiaHungryPeople": 292000000,
+    "stuntedChildren": 150000000,
+    "projection2030Low": 510000000,
+    "projection2030High": 520000000
+  },
+  "regionalMsfi": [
+    { "region": "África", "prevalence": 56.6 },
+    { "region": "Asia", "prevalence": 20.3 },
+    { "region": "América Latina y el Caribe", "prevalence": 22.9 },
+    { "region": "América del Norte y Europa", "prevalence": 8.7 },
+    { "region": "Mundo", "prevalence": 25.8 }
+  ],
+  "notes": [
+    "«Hambre» se usa en este sitio como sinónimo de subalimentación (indicador 2.1.1 de los ODS), la medida oficial de SOFI. No es lo mismo que la inseguridad alimentaria moderada o grave (2.1.2) ni que la inseguridad alimentaria aguda del IPC.",
+    "Las cifras de población son estimaciones modelizadas, no conteos individuales.",
+    "La composición regional del gráfico de puntos se obtiene por resta de las cifras oficiales de África y Asia respecto al total mundial (645 M − 309 M − 292 M = 44 M)."
+  ]
+}

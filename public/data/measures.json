@@ -1,0 +1,363 @@
+{
+  "version": "2026-11-04",
+  "note": "Biblioteca de medidas basada en programas reales de la ONU. Cada resultado incluye la fuente y el año. Cuando no se ha verificado un resultado cuantitativo, el campo results queda vacío y la interfaz lo indica explícitamente.",
+  "measures": [
+    {
+      "id": "emergency_food",
+      "name": "Ayuda alimentaria de emergencia",
+      "shortName": "Ayuda de emergencia",
+      "icon": "package",
+      "summary": "Distribución de alimentos, raciones y comidas calientes para cubrir necesidades inmediatas.",
+      "description": "Consiste en entregar alimentos o comidas listas para consumir a familias que han perdido el acceso a comida por un conflicto, un desastre o un colapso económico. Es la respuesta más rápida, pero no corrige las causas.",
+      "objective": "Evitar muertes por hambre y proteger la nutrición durante una crisis.",
+      "beneficiaries": "Población desplazada, refugiada y comunidades en zonas de conflicto o desastre.",
+      "agencies": ["PMA (WFP)", "FAO", "UNICEF", "ACNUR"],
+      "implementedIn": ["Sudán", "Gaza", "Yemen", "Afganistán", "Haití", "Somalia"],
+      "results": [
+        {
+          "claim": "En Sudán, el PMA alcanzó a unos 4 millones de personas al mes con asistencia alimentaria de emergencia y planificó llegar a 4,6 millones mensuales en 2026.",
+          "source": "PMA — Sudán (página de país)",
+          "url": "https://www.wfp.org/countries/sudan",
+          "year": 2026
+        },
+        {
+          "claim": "En Gaza, tras el alto el fuego de octubre de 2025, el PMA llegó a 1,1 millones de personas al mes, aunque los recortes de financiación redujeron la cobertura en un tercio.",
+          "source": "PMA — Palestina (página de país)",
+          "url": "https://www.wfp.org/countries/palestine",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Depende del acceso humanitario: en zonas de combate o con bloqueos puede ser imposible llegar.",
+        "Es una solución de emergencia; no sostiene el acceso a alimentos a medio plazo.",
+        "Sufre recortes abruptos cuando disminuye la financiación internacional.",
+        "Puede desincentivar la producción local si sustituye mercados sin diseño adecuado."
+      ],
+      "addresses": ["conflict", "access", "displacement"],
+      "horizon": "inmediato",
+      "evidence": "fuerte",
+      "cost": "alto",
+      "coverage": "amplia"
+    },
+    {
+      "id": "cash",
+      "name": "Transferencias monetarias a familias vulnerables",
+      "shortName": "Transferencias monetarias",
+      "icon": "wallet",
+      "summary": "Dinero, vales o tarjetas electrónicas para que los hogares compren alimentos en mercados locales.",
+      "description": "En lugar de repartir alimentos, se entrega efectivo o vales. Las familias deciden qué comprar, lo que suele mejorar la diversidad de la dieta y apoyar a comerciantes y productores locales.",
+      "objective": "Restablecer el poder de compra y evitar estrategias de afrontamiento negativas como vender activos o sacar a los niños de la escuela.",
+      "beneficiaries": "Hogares pobres, desplazados y comunidades de acogida con mercados funcionales.",
+      "agencies": ["PMA (WFP)", "UNICEF", "ACNUR", "OCHA"],
+      "implementedIn": ["Somalia", "Nigeria", "Haití", "Yemen", "Bangladesh", "Malaui"],
+      "results": [
+        {
+          "claim": "En Nigeria, más de 700.000 familias vulnerables recibieron asistencia alimentaria y nutricional en diciembre de 2025, incluidos vales electrónicos canjeables en comercios locales.",
+          "source": "PMA — Nigeria (página de país)",
+          "url": "https://www.wfp.org/countries/nigeria",
+          "year": 2026
+        },
+        {
+          "claim": "En Somalia, el PMA combina alimentos y efectivo según el contexto; la modalidad monetaria permite elegir y crea demanda para productores y minoristas locales.",
+          "source": "PMA — Somalia (página de país)",
+          "url": "https://www.wfp.org/countries/somalia",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Requiere mercados que funcionen y tengan oferta suficiente; en crisis prolongadas pueden estar destruidos.",
+        "La inflación erosiona el valor de la transferencia si no se ajusta.",
+        "Puede excluir a quienes no tienen documento, teléfono o cuenta bancaria.",
+        "No sustituye la atención nutricional ni el acceso a servicios de salud."
+      ],
+      "addresses": ["poverty", "economic", "access"],
+      "horizon": "corto plazo",
+      "evidence": "fuerte",
+      "cost": "medio",
+      "coverage": "amplia"
+    },
+    {
+      "id": "school_meals",
+      "name": "Programas de alimentación escolar",
+      "shortName": "Alimentación escolar",
+      "icon": "utensils",
+      "summary": "Comidas nutritivas en la escuela, preferentemente con productos locales.",
+      "description": "Además de alimentar a los niños, los programas de alimentación escolar aumentan la asistencia y pueden comprar a pequeños agricultores. La modalidad «home-grown» conecta la escuela con la producción local.",
+      "objective": "Cubrir parte de las necesidades nutricionales infantiles y mantener a los niños en la escuela.",
+      "beneficiaries": "Niños en edad escolar, con frecuencia en zonas rurales y vulnerables.",
+      "agencies": ["PMA (WFP)", "UNICEF", "FAO", "UNESCO"],
+      "implementedIn": ["Haití", "Bangladesh", "India", "Brasil", "Guatemala", "Malaui"],
+      "results": [
+        {
+          "claim": "En Haití, el 74 % de los niños del programa de alimentación escolar comían comidas elaboradas con alimentos comprados localmente.",
+          "source": "PMA — Haití (página de país)",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2026
+        },
+        {
+          "claim": "Bangladesh puso en marcha un programa nacional de alimentación escolar con apoyo del PMA para llegar a 3 millones de niños en tres años.",
+          "source": "PMA — Bangladesh (página de país)",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "No llega a los niños que no están escolarizados, que suelen ser los más vulnerables.",
+        "Requiere cocinas, agua, saneamiento y cadenas de suministro estables.",
+        "Sin financiación sostenida, los programas se interrumpen o reducen raciones.",
+        "El impacto nutricional depende de la calidad de la comida, no solo de su cantidad."
+      ],
+      "addresses": ["nutrition", "poverty", "production"],
+      "horizon": "corto plazo",
+      "evidence": "fuerte",
+      "cost": "medio",
+      "coverage": "amplia"
+    },
+    {
+      "id": "smallholders",
+      "name": "Apoyo a pequeños agricultores",
+      "shortName": "Pequeños agricultores",
+      "icon": "sprout",
+      "summary": "Semillas, insumos, crédito, formación y acceso a mercados para explotaciones familiares.",
+      "description": "La mayoría de las personas en situación de inseguridad alimentaria vive en zonas rurales y depende de la agricultura. Apoyar a los pequeños productores mejora la disponibilidad local de alimentos y los ingresos.",
+      "objective": "Aumentar la producción y los ingresos de las explotaciones familiares y reducir la dependencia de la ayuda.",
+      "beneficiaries": "Pequeños agricultores, pastores, mujeres rurales y jóvenes sin tierra.",
+      "agencies": ["FAO", "FIDA (IFAD)", "PMA (WFP)"],
+      "implementedIn": ["Guatemala", "Haití", "Etiopía", "Malaui", "Afganistán", "Níger"],
+      "results": [
+        {
+          "claim": "En Guatemala, el PMA vincula a pequeños agricultores con el programa de alimentación escolar para que sus productos lleguen a las escuelas.",
+          "source": "PMA — Guatemala (página de país)",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2026
+        },
+        {
+          "claim": "En Haití, la compra local de alimentos para las escuelas apoya a agricultores y mercados locales, aunque la inseguridad dificulta el transporte de la producción.",
+          "source": "PMA — Haití (página de país)",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Los resultados tardan varias cosechas y dependen del clima.",
+        "Sin acceso a crédito, tierra y mercados, las semillas por sí solas no bastan.",
+        "La inseguridad puede impedir que los agricultores lleguen a sus parcelas o vendan.",
+        "Riesgo de favorecer a los productores más grandes si la selección no es cuidadosa."
+      ],
+      "addresses": ["production", "poverty", "climate", "infrastructure"],
+      "horizon": "largo plazo",
+      "evidence": "moderada",
+      "cost": "medio",
+      "coverage": "focalizada"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infraestructura agrícola y rural",
+      "shortName": "Infraestructura agrícola",
+      "icon": "tractor",
+      "summary": "Riego, almacenes, caminos, cadenas de frío y mercados para reducir pérdidas y conectar producción y consumo.",
+      "description": "Invertir en riego, almacenamiento y carreteras reduce las pérdidas poscosecha y permite que los alimentos lleguen a los mercados. Es una condición estructural para que la producción se traduzca en acceso real.",
+      "objective": "Reducir pérdidas, estabilizar precios y ampliar el acceso físico a alimentos nutritivos.",
+      "beneficiaries": "Productores, comerciantes y consumidores de zonas rurales y periurbanas.",
+      "agencies": ["FAO", "FIDA (IFAD)", "PMA (WFP)", "Banco Mundial"],
+      "implementedIn": ["Etiopía", "Bangladesh", "Nepal", "Malaui", "Sudán"],
+      "results": [],
+      "limitations": [
+        "Son inversiones de largo plazo y alto coste inicial.",
+        "Pueden tardar años en mostrar efectos sobre el hambre.",
+        "Requieren mantenimiento y capacidad institucional local.",
+        "Una infraestructura sin gobernanza puede reforzar desigualdades de acceso."
+      ],
+      "addresses": ["infrastructure", "production", "access", "climate"],
+      "horizon": "largo plazo",
+      "evidence": "moderada",
+      "cost": "alto",
+      "coverage": "focalizada"
+    },
+    {
+      "id": "social_protection",
+      "name": "Sistemas de protección social",
+      "shortName": "Protección social",
+      "icon": "shield",
+      "summary": "Redes de seguridad, pensiones, seguros y programas de empleo que sostienen el ingreso de forma predecible.",
+      "description": "A diferencia de la ayuda de emergencia, la protección social es permanente y predecible. Puede incluir transferencias, obras públicas con salario, seguros agrícolas o apoyo a la infancia.",
+      "objective": "Prevenir la caída en la pobreza y el hambre ante shocks y reducir la vulnerabilidad crónica.",
+      "beneficiaries": "Hogares crónicamente pobres, personas mayores, personas con discapacidad y familias con niños.",
+      "agencies": ["PMA (WFP)", "UNICEF", "OIT", "Banco Mundial", "FAO"],
+      "implementedIn": ["Etiopía", "Brasil", "México", "Bangladesh", "India", "Sudáfrica"],
+      "results": [
+        {
+          "claim": "En Bangladesh, el PMA ha apoyado durante más de cinco décadas la construcción de un sistema de protección social basado en el ciclo de vida, evolucionando desde la ayuda alimentaria hacia redes integradas.",
+          "source": "PMA — Bangladesh (página de país)",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2026
+        },
+        {
+          "claim": "En Etiopía, el PMA trabaja con el Gobierno en programas de protección social y transferencias para hogares afectados por sequía y conflicto.",
+          "source": "PMA — Etiopía (página de país)",
+          "url": "https://www.wfp.org/countries/ethiopia",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Requiere capacidad fiscal y administrativa sostenida.",
+        "Los registros de beneficiarios pueden excluir a los más vulnerables.",
+        "En países de ingreso bajo, depende en gran medida de la ayuda internacional.",
+        "Los pagos pueden llegar tarde o perder valor por la inflación."
+      ],
+      "addresses": ["poverty", "economic", "inequality"],
+      "horizon": "largo plazo",
+      "evidence": "fuerte",
+      "cost": "alto",
+      "coverage": "amplia"
+    },
+    {
+      "id": "nutrition",
+      "name": "Programas de nutrición infantil",
+      "shortName": "Nutrición infantil",
+      "icon": "heart-pulse",
+      "summary": "Detección y tratamiento de la desnutrición aguda, suplementos y apoyo a madres y niños pequeños.",
+      "description": "Incluye alimentos terapéuticos listos para usar, suplementación de micronutrientes, promoción de la lactancia y seguimiento del crecimiento. Es la intervención con mayor capacidad de evitar muertes infantiles.",
+      "objective": "Tratar y prevenir la desnutrición aguda y crónica en menores de cinco años y en mujeres embarazadas.",
+      "beneficiaries": "Niños de 6 a 59 meses, mujeres embarazadas y lactantes.",
+      "agencies": ["UNICEF", "PMA (WFP)", "OMS", "FAO"],
+      "implementedIn": ["Malaui", "Somalia", "Yemen", "Afganistán", "Níger", "Sudán"],
+      "results": [
+        {
+          "claim": "En Malaui, entre 2024 y 2025 se trató a 39.700 personas por desnutrición aguda moderada y a más de 30.700 por desnutrición aguda grave, con tasas de recuperación del 89 % y del 91 % respectivamente.",
+          "source": "PMA — Malaui (página de país)",
+          "url": "https://www.wfp.org/countries/malawi",
+          "year": 2026
+        },
+        {
+          "claim": "En Gaza, el PMA mantiene asistencia nutricional para 300.000 mujeres y niños dentro de una respuesta reducida por falta de fondos.",
+          "source": "PMA — Palestina (página de país)",
+          "url": "https://www.wfp.org/countries/palestine",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Llega tarde si la desnutrición ya está avanzada; la prevención es más eficaz.",
+        "Requiere personal de salud y suministros que a menudo faltan en crisis.",
+        "No resuelve la causa: si el acceso a alimentos no mejora, la recaída es frecuente.",
+        "La financiación humanitaria puede interrumpir el tratamiento a mitad de curso."
+      ],
+      "addresses": ["nutrition", "access"],
+      "horizon": "inmediato",
+      "evidence": "fuerte",
+      "cost": "medio",
+      "coverage": "focalizada"
+    },
+    {
+      "id": "climate_adaptation",
+      "name": "Adaptación al cambio climático y acción anticipatoria",
+      "shortName": "Adaptación climática",
+      "icon": "cloud-sun",
+      "summary": "Alertas tempranas, variedades resistentes, seguros y transferencias antes de que llegue el desastre.",
+      "description": "La acción anticipatoria entrega ayuda antes de un pronóstico de sequía o ciclón, en lugar de esperar a que ocurra la crisis. Se combina con semillas resistentes, riego eficiente y seguros agrícolas.",
+      "objective": "Reducir el impacto de los fenómenos extremos sobre la producción y el consumo.",
+      "beneficiaries": "Comunidades rurales expuestas a sequías, inundaciones y ciclones.",
+      "agencies": ["PMA (WFP)", "FAO", "FIDA (IFAD)", "OMM", "PNUD"],
+      "implementedIn": ["Bangladesh", "Guatemala", "Somalia", "Malaui", "Etiopía", "Honduras"],
+      "results": [
+        {
+          "claim": "Bangladesh es considerado un referente en acción anticipatoria; en 2024 el PMA alcanzó a casi 4 millones de personas con apoyo de emergencia y resiliencia, la cifra más alta en años recientes.",
+          "source": "PMA — Bangladesh (página de país)",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2026
+        },
+        {
+          "claim": "En Guatemala, el PMA apoya medidas de preparación y acción anticipatoria ante sequías asociadas a El Niño en el Corredor Seco.",
+          "source": "PMA — Guatemala (página de país)",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Los pronósticos no son perfectos; una falsa alarma tiene coste político y financiero.",
+        "Requiere sistemas de información y coordinación entre instituciones.",
+        "No protege frente a crisis que no son climáticas.",
+        "La adaptación estructural exige inversión pública sostenida, no solo ayuda humanitaria."
+      ],
+      "addresses": ["climate", "production", "access"],
+      "horizon": "largo plazo",
+      "evidence": "moderada",
+      "cost": "medio",
+      "coverage": "focalizada"
+    },
+    {
+      "id": "food_systems",
+      "name": "Reconstrucción de sistemas alimentarios locales",
+      "shortName": "Sistemas alimentarios",
+      "icon": "wheat",
+      "summary": "Recuperar mercados, panaderías, cadenas de frío y producción local tras una crisis.",
+      "description": "Cuando los mercados colapsan, la ayuda alimentaria debe ir acompañada de la reconstrucción de la producción y la distribución local. Esto incluye apoyar panaderías, molinos, cooperativas y rutas comerciales.",
+      "objective": "Restablecer la disponibilidad y el acceso a alimentos sin crear dependencia permanente de la ayuda.",
+      "beneficiaries": "Productores, transformadores, comerciantes y consumidores urbanos y rurales.",
+      "agencies": ["FAO", "PMA (WFP)", "FIDA (IFAD)"],
+      "implementedIn": ["Sudán", "Haití", "Ucrania", "Siria", "Somalia"],
+      "results": [
+        {
+          "claim": "En Sudán, el PMA mantiene líneas de trabajo sobre sistemas alimentarios y pérdidas poscosecha, además de la respuesta de emergencia, aunque la guerra limita su alcance.",
+          "source": "PMA — Sudán (página de país)",
+          "url": "https://www.wfp.org/countries/sudan",
+          "year": 2026
+        },
+        {
+          "claim": "En Haití, el programa de alimentación escolar compra el 74 % de los alimentos localmente, conectando la respuesta con la economía rural.",
+          "source": "PMA — Haití (página de país)",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "Exige seguridad y gobernanza que a menudo no existen en contextos de conflicto.",
+        "Puede competir con la ayuda de emergencia por los mismos recursos.",
+        "Los resultados son lentos y difíciles de atribuir.",
+        "Sin acceso a crédito y energía, la reconstrucción se estanca."
+      ],
+      "addresses": ["production", "access", "infrastructure", "economic"],
+      "horizon": "largo plazo",
+      "evidence": "limitada",
+      "cost": "alto",
+      "coverage": "focalizada"
+    },
+    {
+      "id": "conflict_protection",
+      "name": "Protección de poblaciones desplazadas y acceso humanitario",
+      "shortName": "Protección y acceso",
+      "icon": "handshake",
+      "summary": "Negociación de corredores, alojamiento, documentación y servicios para personas desplazadas.",
+      "description": "En conflictos, la primera condición para combatir el hambre es poder llegar a la población y protegerla. Esto incluye negociaciones humanitarias, corredores, campamentos y apoyo legal y psicosocial.",
+      "objective": "Garantizar acceso seguro a alimentos y servicios y proteger los derechos de las personas desplazadas.",
+      "beneficiaries": "Personas desplazadas internas, refugiadas y comunidades de acogida.",
+      "agencies": ["ACNUR", "OCHA", "PMA (WFP)", "OIM", "UNICEF"],
+      "implementedIn": ["Sudán", "Yemen", "Gaza", "Haití", "RDC", "Bangladesh"],
+      "results": [
+        {
+          "claim": "En Yemen, la escalada del conflicto cortó el acceso humanitario a 800.000 personas en la ciudad de Taiz, una de las zonas con mayor inseguridad alimentaria del país.",
+          "source": "PMA — Yemen (página de país)",
+          "url": "https://www.wfp.org/countries/yemen",
+          "year": 2026
+        },
+        {
+          "claim": "En Sudán, el PMA alcanza a unos 4 millones de personas al mes pese a la expansión del conflicto, pero advierte que la inseguridad y la falta de fondos limitan la respuesta.",
+          "source": "PMA — Sudán (página de país)",
+          "url": "https://www.wfp.org/countries/sudan",
+          "year": 2026
+        }
+      ],
+      "limitations": [
+        "No depende de la ayuda humanitaria sino de la voluntad de las partes en conflicto.",
+        "Los corredores pueden cerrarse de un día para otro.",
+        "La protección jurídica es limitada en Estados frágiles.",
+        "Sin solución política, la asistencia solo palia el problema."
+      ],
+      "addresses": ["conflict", "displacement", "access"],
+      "horizon": "inmediato",
+      "evidence": "limitada",
+      "cost": "alto",
+      "coverage": "focalizada"
+    }
+  ]
+}

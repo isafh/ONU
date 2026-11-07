@@ -1,0 +1,909 @@
+{
+  "version": "2026-11-04",
+  "note": "Perfiles elaborados a partir de las páginas de país del PMA (consultadas en noviembre de 2026), la base del GRFC 2026, IPC y las series del Banco Mundial/FAO. Cada afirmación indica su tipo de evidencia: documentada, contribuyente o hipótesis. Los resultados de la ONU solo se presentan como demostrados cuando existe una cifra verificable en la fuente citada; en caso contrario se indica explícitamente.",
+  "profiles": {
+    "SDN": {
+      "iso3": "SDN",
+      "updated": "2026-11-04",
+      "context": "Sudán vive desde abril de 2023 una guerra entre las Fuerzas Armadas Sudanesas y las Fuerzas de Apoyo Rápido que ha destruido mercados, cosechas e infraestructura. El PMA describe la crisis como una de las peores del mundo: alrededor de 19,5 millones de personas en niveles de crisis de hambre y varias zonas en riesgo de hambruna. La base del GRFC 2026 registra 19,47 millones de personas en Fase 3 o superior entre febrero y mayo de 2026.",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Guerra y destrucción de medios de vida",
+          "detail": "El conflicto ha destruido mercados, cosechas, carreteras e infraestructura y ha obligado a cerrar servicios básicos. El GRFC identifica el conflicto y la inseguridad como el conductor principal de la crisis alimentaria aguda del país.",
+          "source": "PMA — Sudán; GRFC 2026",
+          "url": "https://www.wfp.org/countries/sudan",
+          "year": 2026,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento masivo",
+          "detail": "Unos 9 millones de personas han sido forzadas a abandonar sus hogares. El desplazamiento rompe el acceso a la tierra, al empleo y a los mercados, y concentra a la población en asentamientos con servicios insuficientes.",
+          "source": "PMA — Sudán",
+          "url": "https://www.wfp.org/countries/sudan",
+          "year": 2026,
+          "tag": "displacement"
+        },
+        {
+          "type": "documented",
+          "title": "Colapso económico",
+          "detail": "La guerra ha profundizado el colapso económico: salarios impagados, moneda depreciada y precios de los alimentos fuera del alcance de muchos hogares. El GRFC registra las crisis económicas como segundo conductor en su última evaluación con datos de conductores (2025).",
+          "source": "GRFC 2026 — base de datos por país",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Clima extremo sobre una agricultura vulnerable",
+          "detail": "Inundaciones y sequías afectan la producción y los pastos. El GRFC incluye los fenómenos climáticos extremos como conductor terciario. La superficie agrícola representa alrededor del 60 % de la superficie terrestre del país, de modo que los choques climáticos alcanzan a una base económica amplia.",
+          "source": "GRFC 2026; Banco Mundial (AG.LND.AGRI.ZS, 2024)",
+          "url": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Acceso humanitario restringido y hambruna",
+          "detail": "La hambruna (Fase 5 del IPC) se confirmó por primera vez en 2024 y el GRFC 2026 mantiene zonas en riesgo. Los bloqueos y los combates impiden llegar a parte de la población, lo que convierte el acceso en un factor tan decisivo como la disponibilidad de alimentos.",
+          "source": "IPC / GRFC 2026",
+          "url": "https://www.ipcinfo.org",
+          "year": 2026,
+          "tag": "access"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Operación de emergencia del PMA en Sudán",
+          "agencies": ["PMA (WFP)"],
+          "status": "en-ejecucion",
+          "statusNote": "Operación en curso; las cifras de alcance son salidas operativas, no una medida del efecto sobre la prevalencia del hambre.",
+          "measureIds": ["emergency_food", "nutrition"],
+          "objectives": "Cubrir las necesidades alimentarias inmediatas de la población en crisis y ampliar la respuesta a 4,6 millones de personas al mes en 2026.",
+          "interventions": "Distribución de alimentos y comidas, asistencia monetaria donde los mercados funcionan, apoyo nutricional a madres y niños y logística humanitaria en zonas de difícil acceso.",
+          "results": "El PMA informa de que alcanza a unos 4 millones de personas al mes y sitúa en 19,5 millones las personas en inseguridad alimentaria aguda. No se verificó en esta base una reducción atribuible de la prevalencia de hambre.",
+          "limitations": "El acceso a las zonas de combate es irregular; los bloqueos y la inseguridad pueden impedir la entrega. La financiación es inferior a las necesidades y la operación compite con otras crisis.",
+          "sources": [
+            { "label": "PMA — Sudán (página de país)", "url": "https://www.wfp.org/countries/sudan", "year": 2026 }
+          ]
+        },
+        {
+          "programme": "Respuesta nutricional y de protección",
+          "agencies": ["UNICEF", "PMA (WFP)", "ACNUR", "OCHA"],
+          "status": "en-ejecucion",
+          "statusNote": "No se dispone de resultados cuantitativos de tratamiento verificados en las fuentes consultadas para esta base.",
+          "measureIds": ["nutrition", "conflict_protection"],
+          "objectives": "Tratar la desnutrición aguda, proteger a la población desplazada y mantener el acceso a servicios básicos.",
+          "interventions": "Tamizaje y tratamiento de la desnutrición aguda, suplementación, apoyo a centros de salud, alojamiento y documentación para personas desplazadas.",
+          "results": "La clasificación nutricional del GRFC 2026 para Sudán es «Crit 1 Crisis». Es una clasificación de gravedad, no un resultado de tratamiento; no se verificó aquí el número de niños tratados ni la tasa de recuperación.",
+          "limitations": "La inseguridad limita el acceso a los centros de salud y la continuidad del tratamiento. La financiación humanitaria no cubre la escala de la necesidad.",
+          "sources": [
+            { "label": "GRFC 2026 — hoja AMN (nutrición)", "url": "https://www.fsinplatform.org/global-report-food-crises", "year": 2026 }
+          ]
+        }
+      ],
+      "adaptation": {
+        "country": "Somalia",
+        "organisation": "PMA (WFP)",
+        "strategy": "Combinar alimentos y transferencias monetarias según el funcionamiento de los mercados locales, en lugar de usar una sola modalidad.",
+        "results": "El PMA documenta el uso combinado de alimentos y efectivo en Somalia y señala que la modalidad monetaria permite a las familias elegir y crea demanda para productores y minoristas locales.",
+        "applicability": "Podría aplicarse en zonas de Sudán con mercados relativamente funcionales, pero la intensidad del combate y los bloqueos hacen inviable la modalidad monetaria en amplias áreas.",
+        "source": { "label": "PMA — Somalia (página de país)", "url": "https://www.wfp.org/countries/somalia", "year": 2026 }
+      },
+      "caveat": "La cifra de personas en Fase 3 o superior (19,47 M, feb-may 2026) y la de personas alcanzadas por el PMA (4 M al mes) describen cosas distintas y no deben restarse entre sí. La prevalencia de subalimentación más reciente de la serie (10,9 %, 2021) es anterior a la guerra y no refleja la crisis actual."
+    },
+    "AFG": {
+      "iso3": "AFG",
+      "updated": "2026-11-04",
+      "context": "Afganistán sigue siendo una de las crisis de hambre más graves del mundo. El PMA proyecta 19,2 millones de personas en inseguridad alimentaria aguda para el periodo noviembre de 2025-marzo de 2026 y estima que 4 millones de madres y niños estarán desnutridos en 2027. El análisis del IPC recogido en el GRFC clasifica a 17,4 millones de personas en Fase 3 o superior para ese mismo periodo; la cifra del PMA es una proyección operativa distinta, no una clasificación del IPC. La prevalencia de subalimentación de la serie es del 27,8 % (2024) y la inseguridad alimentaria moderada o grave, del 77,8 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Cuatro décadas de conflicto",
+          "detail": "El PMA vincula la crisis con las consecuencias de cuatro décadas de conflicto, que han destruido infraestructura, desplazado a la población y debilitado los servicios básicos.",
+          "source": "PMA — Afganistán",
+          "url": "https://www.wfp.org/countries/afghanistan",
+          "year": 2026,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Crisis económica y pobreza arraigada",
+          "detail": "La crisis económica, el desempleo y la pobreza reducen el poder de compra de los hogares. El GRFC registra las crisis económicas como segundo conductor de la inseguridad alimentaria aguda en su última evaluación con datos de conductores (2025).",
+          "source": "PMA — Afganistán; GRFC 2026",
+          "url": "https://www.wfp.org/countries/afghanistan",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Sequías y clima errático",
+          "detail": "La sequía recurrente y las pautas meteorológicas cada vez más erráticas afectan la producción agrícola y los pastos. En la evaluación de 2025, el GRFC identifica los fenómenos climáticos extremos como conductor principal.",
+          "source": "GRFC 2026 — base de datos por país",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Precios altos y acceso limitado",
+          "detail": "Incluso donde hay alimentos en el mercado, muchas familias no pueden pagarlos. El PMA señala que el acceso a los alimentos está limitado por los precios y la pérdida de ingresos, no solo por la disponibilidad.",
+          "source": "PMA — Afganistán",
+          "url": "https://www.wfp.org/countries/afghanistan",
+          "year": 2026,
+          "tag": "access"
+        },
+        {
+          "type": "contributing",
+          "title": "Terremoto de agosto de 2025",
+          "detail": "El terremoto de agosto de 2025 destruyó viviendas y medios de vida y añadió una carga humanitaria a una población ya vulnerable. Es un choque adicional, no la causa estructural de la crisis.",
+          "source": "PMA — Afganistán",
+          "url": "https://www.wfp.org/countries/afghanistan",
+          "year": 2025,
+          "tag": "displacement"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Respuesta alimentaria y nutricional del PMA",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO"],
+          "status": "en-ejecucion",
+          "statusNote": "La página de país publica la escala de la necesidad y el plan; no se verificó en ella una cifra de personas alcanzadas.",
+          "measureIds": ["emergency_food", "nutrition", "cash"],
+          "objectives": "Cubrir las necesidades alimentarias de emergencia y tratar la desnutrición maternoinfantil.",
+          "interventions": "Asistencia alimentaria, transferencias y cupones, alimentación suplementaria y tratamiento de la desnutrición aguda en centros de salud.",
+          "results": "El PMA sitúa la necesidad en 19,2 millones de personas en inseguridad alimentaria aguda proyectada y 4 millones de madres y niños que se prevé estarán desnutridos en 2027. Son proyecciones de necesidad, no resultados de la intervención.",
+          "limitations": "El acceso humanitario, la financiación y la capacidad de los servicios de salud condicionan la respuesta. La crisis económica limita la demanda efectiva incluso cuando hay alimentos.",
+          "sources": [
+            { "label": "PMA — Afganistán (página de país)", "url": "https://www.wfp.org/countries/afghanistan", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "La prevalencia de subalimentación (27,8 %) y la inseguridad alimentaria moderada o grave (77,8 %) son indicadores distintos. La primera mide insuficiencia energética habitual; la segunda, experiencias de reducción de calidad o cantidad de alimentos. No deben presentarse como equivalentes."
+    },
+    "YEM": {
+      "iso3": "YEM",
+      "updated": "2026-11-04",
+      "context": "Yemen sigue siendo una de las crisis humanitarias más urgentes del mundo. El PMA informa de 18,3 millones de personas en inseguridad alimentaria aguda y 2,2 millones de niños menores de cinco años con desnutrición aguda. No hay un dato reciente de prevalencia de subalimentación (PoU) en la serie del Banco Mundial; la última observación de inseguridad alimentaria moderada o grave es del 74,4 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Conflicto prolongado y acceso restringido",
+          "detail": "El conflicto ha destruido infraestructura y limita el movimiento de personas y ayuda. El PMA documenta que la escalada cortó el acceso humanitario a 800.000 personas en la ciudad de Taiz.",
+          "source": "PMA — Yemen",
+          "url": "https://www.wfp.org/countries/yemen",
+          "year": 2026,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Colapso económico",
+          "detail": "La depreciación de la moneda, los salarios impagados y la inflación de los alimentos han erosionado la capacidad de compra. El GRFC identifica las crisis económicas como conductor principal en su última evaluación con datos de conductores (2025).",
+          "source": "GRFC 2026; PMA — Yemen",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Clima extremo y enfermedades",
+          "detail": "Inundaciones, sequías y brotes de enfermedad se combinan con el conflicto. El GRFC registra los fenómenos climáticos extremos como conductor terciario.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento interno",
+          "detail": "El registro del GRFC contabiliza alrededor de 3,1 millones de personas desplazadas o refugiadas en el país (2025). El desplazamiento interrumpe el acceso a la tierra, el empleo y los servicios.",
+          "source": "GRFC 2026 — hoja de desplazamiento",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "displacement"
+        },
+        {
+          "type": "documented",
+          "title": "Desnutrición infantil aguda",
+          "detail": "Unos 2,2 millones de niños menores de cinco años padecen desnutrición aguda. Es una consecuencia y a la vez un factor que aumenta el riesgo de muerte y de deterioro cognitivo.",
+          "source": "PMA — Yemen",
+          "url": "https://www.wfp.org/countries/yemen",
+          "year": 2026,
+          "tag": "nutrition"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Asistencia alimentaria y nutricional del PMA",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO", "OCHA"],
+          "status": "en-ejecucion",
+          "statusNote": "Operación en curso; las cifras publicadas describen la necesidad, no el efecto medido de la ayuda.",
+          "measureIds": ["emergency_food", "nutrition", "cash"],
+          "objectives": "Mantener el acceso a alimentos y tratar la desnutrición aguda en un contexto de conflicto y colapso económico.",
+          "interventions": "Raciones alimentarias, transferencias y cupones, alimentación suplementaria y tratamiento de la desnutrición aguda, con adaptación a los mercados locales.",
+          "results": "El PMA informa de 18,3 millones de personas en inseguridad alimentaria aguda y 2,2 millones de niños con desnutrición aguda. No se verificó una cifra de personas alcanzadas ni una reducción atribuible de la prevalencia.",
+          "limitations": "El acceso humanitario puede cerrarse de un día para otro; la financiación es insuficiente y la economía sigue deteriorándose. La ayuda alimentaria no corrige el colapso económico ni el conflicto.",
+          "sources": [
+            { "label": "PMA — Yemen (página de país)", "url": "https://www.wfp.org/countries/yemen", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "No hay dato reciente de PoU para Yemen en la serie. El desafío de estimación usa la inseguridad alimentaria moderada o grave (74,4 %, 2024), que mide otra dimensión y no equivale a hambre/subalimentación. La cifra aguda del PMA (18,3 M) corresponde a un periodo y una metodología distintos."
+    },
+    "SOM": {
+      "iso3": "SOM",
+      "updated": "2026-11-04",
+      "context": "Somalia combina conflicto prolongado, sequías e inundaciones recurrentes y un alto nivel de pobreza: el PMA sitúa en 54 % la población bajo la línea de pobreza. El PMA informa de 5,4 millones de personas en niveles de crisis de hambre y 3,5 millones de desplazados; el GRFC registra 6,49 millones de personas en Fase 3 o superior entre febrero y marzo de 2026. La prevalencia de subalimentación de la serie es del 56,5 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Sequías e inundaciones recurrentes",
+          "detail": "Los fenómenos climáticos extremos han devastado la agricultura y los medios de vida. En la evaluación de 2025, el GRFC identifica el clima extremo como conductor principal de la crisis.",
+          "source": "GRFC 2026; PMA — Somalia",
+          "url": "https://www.wfp.org/countries/somalia",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Conflicto persistente",
+          "detail": "El conflicto armado y la inseguridad limitan el acceso a la tierra, los mercados y los servicios. El GRFC lo registra como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Pobreza y crisis económica",
+          "detail": "El PMA señala que el 54 % de la población vive bajo la línea de pobreza. La falta de ingresos y el precio de los alimentos limitan el acceso incluso cuando hay suministro.",
+          "source": "PMA — Somalia",
+          "url": "https://www.wfp.org/countries/somalia",
+          "year": 2026,
+          "tag": "poverty"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento",
+          "detail": "Unos 3,5 millones de personas están desplazadas. Los asentamientos informales carecen con frecuencia de agua, saneamiento y oportunidades de ingreso.",
+          "source": "PMA — Somalia; GRFC 2026",
+          "url": "https://www.wfp.org/countries/somalia",
+          "year": 2026,
+          "tag": "displacement"
+        },
+        {
+          "type": "contributing",
+          "title": "Dependencia de la agricultura de secano y el pastoreo",
+          "detail": "La producción de alimentos es muy sensible a la lluvia. El índice de producción de alimentos fue de 96,2 en 2024 (base 2014-2016 = 100), por debajo del nivel de referencia, lo que refleja la fragilidad productiva.",
+          "source": "FAO/Banco Mundial (AG.PRD.FOOD.XD, 2024)",
+          "url": "https://data.worldbank.org/indicator/AG.PRD.FOOD.XD",
+          "year": 2024,
+          "tag": "production"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Respuesta de emergencia y acción anticipatoria del PMA",
+          "agencies": ["PMA (WFP)", "FAO", "UNICEF", "OCHA"],
+          "status": "en-ejecucion",
+          "statusNote": "Operación en curso; la alerta de hambruna para Baidoa (oct-dic 2026) es una proyección de riesgo, no un resultado de la intervención.",
+          "measureIds": ["emergency_food", "cash", "climate_adaptation", "nutrition"],
+          "objectives": "Salvar vidas durante los choques climáticos, sostener el consumo de los hogares y reducir el riesgo de hambruna.",
+          "interventions": "Asistencia alimentaria y monetaria, acción anticipatoria basada en pronósticos, apoyo nutricional y protección de los medios de vida agropecuarios.",
+          "results": "El PMA informa de 5,4 millones de personas en niveles de crisis y 3,5 millones de desplazados, y advierte de riesgo de hambruna en Baidoa entre octubre y diciembre de 2026. No se verificó una cifra de personas alcanzadas ni una reducción atribuible de la prevalencia.",
+          "limitations": "La financiación humanitaria se ha reducido; el acceso a las zonas controladas por grupos armados es limitado y los choques climáticos se suceden antes de que los hogares se recuperen.",
+          "sources": [
+            { "label": "PMA — Somalia (página de país)", "url": "https://www.wfp.org/countries/somalia", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "El PMA (5,4 M) y el GRFC (6,49 M, feb-mar 2026) publican cifras distintas de inseguridad alimentaria aguda porque usan periodos de análisis y coberturas diferentes. No se promedian ni se suman."
+    },
+    "HTI": {
+      "iso3": "HTI",
+      "updated": "2026-11-04",
+      "context": "Haití es el país más pobre de América Latina y el Caribe. El PMA proyecta 6,35 millones de personas en inseguridad alimentaria aguda entre marzo y junio de 2027, casi 2 millones en niveles de emergencia, y calcula que más de 1,5 millones de personas han sido forzadas a abandonar sus hogares. La prevalencia de subalimentación de la serie es del 51,4 % (2024) y la inseguridad alimentaria moderada o grave, del 83,5 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Violencia e inseguridad",
+          "detail": "La violencia de las bandas y la inseguridad han deteriorado el acceso a mercados, escuelas y servicios de salud. El GRFC identifica el conflicto y la inseguridad como conductor principal en su última evaluación con datos (2025).",
+          "source": "GRFC 2026; PMA — Haití",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Crisis económica e inflación",
+          "detail": "La inestabilidad económica y la inflación reducen el poder de compra de los hogares. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Choques climáticos y mal desempeño agrícola",
+          "detail": "Sequías, huracanes y el mal desempeño del sector agrícola agravan la disponibilidad local. El índice de producción de alimentos fue de 82,2 en 2024, muy por debajo de la base 2014-2016 = 100.",
+          "source": "PMA — Haití; FAO/Banco Mundial (AG.PRD.FOOD.XD, 2024)",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2024,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento interno",
+          "detail": "Más de 1,5 millones de personas han huido de sus hogares. El desplazamiento rompe redes de apoyo y concentra a las familias en alojamientos precarios.",
+          "source": "PMA — Haití",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2026,
+          "tag": "displacement"
+        },
+        {
+          "type": "contributing",
+          "title": "Dependencia de alimentos importados",
+          "detail": "Una parte importante del consumo depende de importaciones, lo que hace que la inflación internacional y la depreciación de la moneda se transmitan rápidamente al precio local de los alimentos.",
+          "source": "PMA — Haití",
+          "url": "https://www.wfp.org/countries/haiti",
+          "year": 2026,
+          "tag": "access"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Emergencia alimentaria y alimentación escolar con compras locales",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO"],
+          "status": "resultados",
+          "statusNote": "Se presenta como resultado verificado la proporción de alimentos comprados localmente para las escuelas. Las demás cifras son proyecciones de necesidad.",
+          "measureIds": ["emergency_food", "school_meals", "cash", "food_systems"],
+          "objectives": "Cubrir las necesidades alimentarias urgentes y sostener la asistencia escolar vinculándola a la producción local.",
+          "interventions": "Raciones y transferencias, comidas escolares y compra de alimentos a productores locales para abastecer las escuelas.",
+          "results": "El PMA informa de que el 74 % de los niños del programa de alimentación escolar comían comidas elaboradas con alimentos comprados localmente. También proyecta 6,35 millones de personas en inseguridad alimentaria aguda entre marzo y junio de 2027.",
+          "limitations": "La violencia puede impedir el transporte de alimentos y la operación de las escuelas. La financiación es insuficiente y la compra local requiere producción y logística que la inseguridad dificulta.",
+          "sources": [
+            { "label": "PMA — Haití (página de país)", "url": "https://www.wfp.org/countries/haiti", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "La proyección de 6,35 millones corresponde a marzo-junio de 2027 y no al año de la prevalencia (2024). El 74 % de compra local es un resultado del programa escolar, no una medida del hambre."
+    },
+    "COD": {
+      "iso3": "COD",
+      "updated": "2026-11-04",
+      "context": "La República Democrática del Congo alberga una de las mayores crisis de hambre del mundo. El PMA informa de 26,5 millones de personas en inseguridad alimentaria aguda y 7,8 millones de personas desplazadas internamente. La prevalencia de subalimentación de la serie es del 39,5 % (2024) y la inseguridad alimentaria moderada o grave, del 81,7 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Conflicto armado prolongado",
+          "detail": "El conflicto y la violencia se prolongan desde hace un cuarto de siglo y se refuerzan mutuamente con el hambre. El GRFC identifica el conflicto como conductor principal.",
+          "source": "PMA — RDC; GRFC 2026",
+          "url": "https://www.wfp.org/countries/democratic-republic-congo",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento interno masivo",
+          "detail": "Unos 7,8 millones de personas están desplazadas dentro del país. El desplazamiento interrumpe la producción, el empleo y el acceso a la tierra y a los mercados.",
+          "source": "PMA — RDC",
+          "url": "https://www.wfp.org/countries/democratic-republic-congo",
+          "year": 2026,
+          "tag": "displacement"
+        },
+        {
+          "type": "documented",
+          "title": "Crisis económicas",
+          "detail": "La depreciación de la moneda y la inflación de los alimentos reducen el poder de compra. El GRFC registra las crisis económicas como conductor terciario.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Clima extremo",
+          "detail": "Inundaciones y sequías afectan la producción y las rutas de suministro. El GRFC sitúa los fenómenos climáticos extremos como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "contributing",
+          "title": "Brotes epidémicos",
+          "detail": "El resurgimiento del ébola en el este del país en 2026 añade una carga sanitaria y logística a una población ya vulnerable. Es un choque agudo sobre causas estructurales.",
+          "source": "PMA — RDC",
+          "url": "https://www.wfp.org/countries/democratic-republic-congo",
+          "year": 2026,
+          "tag": "nutrition"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Operación de emergencia del PMA en la RDC",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO", "OCHA", "ACNUR"],
+          "status": "en-ejecucion",
+          "statusNote": "Operación en curso; las cifras publicadas describen la necesidad y el desplazamiento, no el efecto medido de la ayuda.",
+          "measureIds": ["emergency_food", "nutrition", "conflict_protection", "cash"],
+          "objectives": "Cubrir las necesidades alimentarias de las personas desplazadas y de las comunidades de acogida y tratar la desnutrición aguda.",
+          "interventions": "Distribuciones de alimentos y transferencias, atención nutricional, apoyo a la logística humanitaria y protección de personas desplazadas.",
+          "results": "El PMA informa de 26,5 millones de personas en inseguridad alimentaria aguda y 7,8 millones de desplazados internos. No se verificó en esta base una cifra de personas alcanzadas ni una reducción atribuible de la prevalencia.",
+          "limitations": "La violencia y la falta de infraestructura limitan el acceso; el brote de ébola añade restricciones sanitarias y logísticas; la financiación no cubre la escala de la crisis.",
+          "sources": [
+            { "label": "PMA — RDC (página de país)", "url": "https://www.wfp.org/countries/democratic-republic-congo", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "El GRFC registra 5,5 millones de personas desplazadas o refugiadas en 2025, mientras que el PMA informa de 7,8 millones de desplazados internos en 2026. Las cifras no son intercambiables: cambian el año y la definición."
+    },
+    "SSD": {
+      "iso3": "SSD",
+      "updated": "2026-11-04",
+      "context": "Sudán del Sur, el país más joven del mundo, enfrenta conflictos, desplazamiento masivo, inestabilidad económica, choques climáticos y la guerra en el vecino Sudán. El PMA informa de 7,8 millones de personas con altos niveles de hambre —más de la mitad de la población— y más de 2,2 millones de niños menores de cinco años con desnutrición aguda. La prevalencia de subalimentación de la serie es del 19,1 % (2024), mientras que la inseguridad alimentaria moderada o grave alcanza el 88,8 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Conflicto y spillover de la guerra de Sudán",
+          "detail": "El conflicto interno y la guerra en el país vecino han creado una combinación de violencia, desplazamiento y presión sobre los recursos. El GRFC identifica el conflicto y la inseguridad como conductor principal.",
+          "source": "PMA — Sudán del Sur; GRFC 2026",
+          "url": "https://www.wfp.org/countries/south-sudan",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Inestabilidad económica",
+          "detail": "La depreciación de la moneda y la inflación de los alimentos reducen el poder de compra. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Inundaciones y sequías",
+          "detail": "Los choques climáticos destruyen cosechas, pastos y caminos. El GRFC sitúa los fenómenos climáticos extremos como tercer conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento",
+          "detail": "El registro del GRFC contabiliza alrededor de 2,6 millones de personas desplazadas o refugiadas (2025). El desplazamiento separa a las familias de sus tierras y medios de vida.",
+          "source": "GRFC 2026 — hoja de desplazamiento",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "displacement"
+        },
+        {
+          "type": "documented",
+          "title": "Déficit de financiación humanitaria",
+          "detail": "El PMA advierte de que la financiación insuficiente amenaza la continuidad de las operaciones de emergencia. La falta de fondos reduce raciones y cobertura.",
+          "source": "PMA — Sudán del Sur",
+          "url": "https://www.wfp.org/countries/south-sudan",
+          "year": 2026,
+          "tag": "access"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Emergencia alimentaria y nutricional en Sudán del Sur",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO", "OCHA"],
+          "status": "en-ejecucion",
+          "statusNote": "Operación en curso; la alerta de hambruna en cuatro condados es una proyección de riesgo, no un resultado.",
+          "measureIds": ["emergency_food", "nutrition", "cash", "conflict_protection"],
+          "objectives": "Evitar la hambruna, tratar la desnutrición aguda y sostener el acceso a alimentos de las comunidades desplazadas y de acogida.",
+          "interventions": "Distribuciones de alimentos y transferencias, tratamiento de la desnutrición aguda, apoyo nutricional a madres y niños y protección de personas desplazadas.",
+          "results": "El PMA informa de 7,8 millones de personas con altos niveles de hambre, más de 2,2 millones de niños con desnutrición aguda y cuatro condados en riesgo de hambruna. No se verificó una cifra de personas alcanzadas ni una reducción atribuible de la prevalencia.",
+          "limitations": "Los recortes de financiación pueden interrumpir las raciones; las inundaciones destruyen caminos y dificultan la entrega; el conflicto limita el acceso a varias zonas.",
+          "sources": [
+            { "label": "PMA — Sudán del Sur (página de país)", "url": "https://www.wfp.org/countries/south-sudan", "year": 2026 }
+          ]
+        }
+      ],
+      "adaptation": {
+        "country": "Malaui",
+        "organisation": "PMA (WFP) y UNICEF",
+        "strategy": "Tratamiento comunitario de la desnutrición aguda moderada y grave con alimentos terapéuticos listos para usar y seguimiento de la recuperación.",
+        "results": "En Malaui se trató a 39.700 personas por desnutrición aguda moderada y a más de 30.700 por desnutrición aguda grave, con tasas de recuperación del 89 % y del 91 % respectivamente (2024-2025).",
+        "applicability": "El protocolo clínico es adaptable, pero Sudán del Sur requiere además acceso seguro, personal de salud y suministros continuos; las tasas de recuperación pueden ser menores en zonas de conflicto.",
+        "source": { "label": "PMA — Malaui (página de país)", "url": "https://www.wfp.org/countries/malawi", "year": 2026 }
+      },
+      "caveat": "La diferencia entre la PoU (19,1 %) y la inseguridad alimentaria moderada o grave (88,8 %) es un ejemplo de por qué no deben confundirse los indicadores: la primera es una estimación modelizada de ingesta; la segunda, una experiencia declarada de acceso. La cifra aguda de 7,8 millones procede de una clasificación de crisis y no es comparable con ninguna de las dos."
+    },
+    "NGA": {
+      "iso3": "NGA",
+      "updated": "2026-11-04",
+      "context": "Nigeria enfrenta una crisis alimentaria sin precedentes: el PMA habla de cerca de 35 millones de personas en inseguridad alimentaria aguda, 4,8 millones de niños y mujeres que necesitan asistencia nutricional al año en el noreste y 2,3 millones de desplazados por la violencia en esa región. El GRFC registra 36,3 millones de personas en Fase 3 o superior entre junio y agosto de 2026. La prevalencia de subalimentación es del 22,2 % (2024) y la inseguridad alimentaria moderada o grave, del 76,5 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Insurgencia y violencia en el noreste",
+          "detail": "Los ataques insurgentes han provocado desplazamiento masivo, colapso de medios de vida y destrucción de sistemas alimentarios locales. El GRFC identifica el conflicto como conductor principal.",
+          "source": "PMA — Nigeria; GRFC 2026",
+          "url": "https://www.wfp.org/countries/nigeria",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Inflación y crisis económica",
+          "detail": "La inflación de los alimentos y la pérdida de poder de compra reducen el acceso. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Choques climáticos",
+          "detail": "Inundaciones y sequías afectan cosechas, pastos y caminos. El GRFC sitúa los fenómenos climáticos extremos como tercer conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento en el noreste",
+          "detail": "Unos 2,3 millones de personas han sido desplazadas por la violencia y la inseguridad en el noreste, con acceso limitado a tierra, empleo y servicios.",
+          "source": "PMA — Nigeria",
+          "url": "https://www.wfp.org/countries/nigeria",
+          "year": 2026,
+          "tag": "displacement"
+        },
+        {
+          "type": "contributing",
+          "title": "El problema es el acceso, no solo la producción",
+          "detail": "El índice de producción de alimentos de Nigeria fue de 122,7 en 2024, por encima de la base 2014-2016 = 100. Esto sugiere que el cuello de botella principal no es la cantidad total producida, sino los precios, la inseguridad y la distribución.",
+          "source": "FAO/Banco Mundial (AG.PRD.FOOD.XD, 2024)",
+          "url": "https://data.worldbank.org/indicator/AG.PRD.FOOD.XD",
+          "year": 2024,
+          "tag": "access"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Asistencia alimentaria, cupones y nutrición en el noreste",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO", "OCHA"],
+          "status": "resultados",
+          "statusNote": "Se presenta como resultado verificado el número de familias alcanzadas en diciembre de 2025. Las demás cifras describen necesidad.",
+          "measureIds": ["emergency_food", "cash", "nutrition", "social_protection"],
+          "objectives": "Cubrir las necesidades alimentarias y nutricionales inmediatas y sostener el poder de compra de los hogares vulnerables.",
+          "interventions": "Distribuciones de alimentos, vales electrónicos canjeables en comercios locales, tratamiento de la desnutrición aguda y apoyo nutricional a madres y niños.",
+          "results": "El PMA informa de que más de 700.000 familias vulnerables recibieron asistencia alimentaria y nutricional en diciembre de 2025, incluidos vales electrónicos. También sitúa la necesidad en cerca de 35 millones de personas en inseguridad alimentaria aguda.",
+          "limitations": "La financiación de la respuesta terminaba en marzo de 2026, lo que amenaza la continuidad. La inseguridad limita el acceso al noreste y la inflación erosiona el valor de los vales.",
+          "sources": [
+            { "label": "PMA — Nigeria (página de país)", "url": "https://www.wfp.org/countries/nigeria", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "El PMA (cerca de 35 M) y el GRFC (36,3 M, jun-ago 2026) no coinciden porque usan periodos y metodologías distintas. La producción nacional agregada está por encima de la base, lo que no contradice la crisis: el hambre puede ser un problema de acceso y distribución."
+    },
+    "PSE": {
+      "iso3": "PSE",
+      "updated": "2026-11-04",
+      "context": "Palestina afronta una crisis humanitaria prolongada por el conflicto, el desplazamiento, el deterioro económico y las restricciones de acceso. Tras la escalada de octubre de 2023 y el alto el fuego de octubre de 2025, el PMA informa de 1,4 millones de personas en Gaza en niveles altos de inseguridad alimentaria aguda —alrededor de dos tercios de la población de Gaza— y de 1,1 millones de personas alcanzadas al mes. La base del GRFC no contiene una evaluación reciente para Palestina: su último registro es de 2022.",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Conflicto y destrucción",
+          "detail": "La escalada iniciada en octubre de 2023 destruyó viviendas, infraestructura y medios de vida en Gaza. El alto el fuego de octubre de 2025 permitió ampliar la ayuda, pero la situación sigue siendo frágil.",
+          "source": "PMA — Palestina",
+          "url": "https://www.wfp.org/countries/palestine",
+          "year": 2026,
+          "tag": "conflict"
+        },
+        {
+          "type": "documented",
+          "title": "Restricciones de acceso",
+          "detail": "El PMA señala que el acceso restringido a recursos y servicios ha sido un rasgo de la crisis durante décadas. Las restricciones afectan tanto a la entrada de ayuda como al movimiento de personas y bienes.",
+          "source": "PMA — Palestina",
+          "url": "https://www.wfp.org/countries/palestine",
+          "year": 2026,
+          "tag": "access"
+        },
+        {
+          "type": "documented",
+          "title": "Deterioro económico",
+          "detail": "El declive económico y el desempleo reducen la capacidad de compra de las familias. El GRFC registraba ya las crisis económicas como segundo conductor en su última evaluación disponible (2022).",
+          "source": "GRFC 2026 — base de datos por país",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2022,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Desplazamiento",
+          "detail": "El registro del GRFC contabiliza alrededor de 3,1 millones de personas desplazadas o refugiadas (2025). El desplazamiento agrava la pérdida de ingresos y de acceso a servicios.",
+          "source": "GRFC 2026 — hoja de desplazamiento",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "displacement"
+        }
+      ],
+      "hiddenIndicators": ["poverty"],
+      "acuteOverride": {
+        "year": 2026,
+        "phase3plus": 1400000,
+        "phase3plusPct": 60.9,
+        "period": "Situación posterior al alto el fuego de octubre de 2025; dato publicado por el PMA en 2026",
+        "source": "PMA — Palestina (página de país)",
+        "url": "https://www.wfp.org/countries/palestine",
+        "note": "El porcentaje se calcula sobre la población de Gaza (unos 2,3 millones), no sobre el total de Palestina (5,6 millones). El PMA describe la cifra como «alrededor de dos tercios» de la población de Gaza. No es una serie comparable con el GRFC."
+      },
+      "unResponse": [
+        {
+          "programme": "Respuesta alimentaria y nutricional del PMA en Gaza",
+          "agencies": ["PMA (WFP)", "UNICEF", "OCHA", "UNRWA"],
+          "status": "resultados",
+          "statusNote": "Se presentan como resultados verificados las personas alcanzadas al mes y la cobertura nutricional. La reducción de cobertura por falta de fondos también está documentada.",
+          "measureIds": ["emergency_food", "nutrition", "cash"],
+          "objectives": "Cubrir las necesidades alimentarias básicas y la nutrición de mujeres y niños tras el alto el fuego.",
+          "interventions": "Distribuciones de alimentos, pan y comidas, transferencias y cupones, y asistencia nutricional para mujeres y niños.",
+          "results": "El PMA informa de 1,4 millones de personas en niveles altos de inseguridad alimentaria aguda en Gaza, 1,1 millones de personas alcanzadas al mes y asistencia nutricional para 300.000 mujeres y niños. Los recortes de financiación redujeron la cobertura en un tercio.",
+          "limitations": "El acceso y la seguridad siguen siendo frágiles; la financiación insuficiente obligó a reducir la cobertura; la destrucción de infraestructura limita el agua, la salud y la logística.",
+          "sources": [
+            { "label": "PMA — Palestina (página de país)", "url": "https://www.wfp.org/countries/palestine", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "La base del GRFC se detiene en 2022 para Palestina. Para no presentar un dato obsoleto como actual, la aplicación muestra el dato del PMA de 2026 en un bloque separado y marcado como sustitución explícita. La prevalencia de inseguridad alimentaria moderada o grave de 2022 (27,4 %) es anterior a la escalada y no describe la situación actual."
+    },
+    "BGD": {
+      "iso3": "BGD",
+      "updated": "2026-11-04",
+      "context": "Bangladesh es uno de los países más densamente poblados del mundo (174 millones de habitantes) y ha reducido el hambre crónica en las últimas décadas: la prevalencia de subalimentación es del 8,2 % (2024). Al mismo tiempo, 16 millones de personas viven en inseguridad alimentaria, 1,1 millones son refugiados rohingya y el país está expuesto a ciclones e inundaciones recurrentes.",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Ciclones, inundaciones y clima extremo",
+          "detail": "Bangladesh está expuesto a ciclones, inundaciones y otros fenómenos extremos que destruyen cosechas, viviendas y caminos. El GRFC identifica el clima extremo como conductor principal.",
+          "source": "GRFC 2026; PMA — Bangladesh",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Precios de los alimentos y crisis económica",
+          "detail": "La inflación y la pérdida de poder de compra limitan el acceso de los hogares pobres. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "documented",
+          "title": "Crisis de refugiados rohingya",
+          "detail": "Alrededor de 1,1 millones de refugiados rohingya viven en campamentos con acceso limitado a empleo formal y servicios. El GRFC incluye el conflicto y la inseguridad como tercer conductor.",
+          "source": "PMA — Bangladesh; GRFC 2026",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2025,
+          "tag": "conflict"
+        },
+        {
+          "type": "contributing",
+          "title": "Densidad de población y presión sobre la tierra",
+          "detail": "La elevada densidad de población reduce el margen para absorber choques y limita el acceso a tierra y vivienda adecuada, sobre todo en asentamientos informales urbanos.",
+          "source": "PMA — Bangladesh",
+          "url": "https://www.wfp.org/countries/bangladesh",
+          "year": 2026,
+          "tag": "inequality"
+        },
+        {
+          "type": "documented",
+          "title": "Desnutrición crónica infantil",
+          "detail": "El 23,6 % de los menores de cinco años presenta retraso del crecimiento (2022). Es un resultado acumulado de carencias nutricionales y de salud, no una medida del hambre actual.",
+          "source": "UNICEF/OMS/Banco Mundial — JME, vía Banco Mundial (SH.STA.STNT.ZS, 2022)",
+          "url": "https://data.unicef.org/topic/nutrition/malnutrition/",
+          "year": 2022,
+          "tag": "nutrition"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Programa nacional de alimentación escolar",
+          "agencies": ["PMA (WFP)", "Gobierno de Bangladesh"],
+          "status": "anunciada",
+          "statusNote": "El objetivo de llegar a 3 millones de niños en tres años es una meta anunciada; no se verificó en esta base un resultado de cobertura al final del periodo.",
+          "measureIds": ["school_meals", "food_systems"],
+          "objectives": "Ampliar la alimentación escolar y vincularla a la producción local.",
+          "interventions": "Comidas escolares, compras a pequeños agricultores y coordinación con el sistema nacional de protección social.",
+          "results": "El PMA informa de que el programa nacional se puso en marcha con el objetivo de llegar a 3 millones de niños en tres años. Es una meta, no un resultado verificado.",
+          "limitations": "La cobertura depende de la financiación y de la capacidad logística; los niños no escolarizados quedan fuera; la calidad nutricional depende del diseño de las comidas.",
+          "sources": [
+            { "label": "PMA — Bangladesh (página de país)", "url": "https://www.wfp.org/countries/bangladesh", "year": 2026 }
+          ]
+        },
+        {
+          "programme": "Acción anticipatoria y respuesta a emergencias",
+          "agencies": ["PMA (WFP)", "Gobierno de Bangladesh", "OCHA"],
+          "status": "resultados",
+          "statusNote": "Se presenta como resultado verificado el número de personas alcanzadas en 2024.",
+          "measureIds": ["climate_adaptation", "emergency_food", "cash"],
+          "objectives": "Anticipar el impacto de ciclones e inundaciones y responder con ayuda antes y durante la crisis.",
+          "interventions": "Alertas tempranas, transferencias anticipadas, distribución de alimentos y apoyo a la recuperación de medios de vida.",
+          "results": "El PMA informa de que en 2024 alcanzó a casi 4 millones de personas con apoyo de emergencia y resiliencia, la cifra más alta en años recientes.",
+          "limitations": "Los pronósticos no son perfectos; las falsas alarmas tienen coste; la acción anticipatoria no sustituye la reducción estructural del riesgo.",
+          "sources": [
+            { "label": "PMA — Bangladesh (página de país)", "url": "https://www.wfp.org/countries/bangladesh", "year": 2026 }
+          ]
+        }
+      ],
+      "caveat": "Bangladesh muestra que un país puede tener una prevalencia baja de subalimentación y, a la vez, una crisis de refugiados y una alta exposición climática. El promedio nacional oculta desigualdades entre regiones y grupos de población."
+    },
+    "GTM": {
+      "iso3": "GTM",
+      "updated": "2026-11-04",
+      "context": "Guatemala enfrenta un problema de desnutrición crónica severo: el 46,5 % de los niños menores de cinco años presenta retraso del crecimiento, una de las tasas más altas de América Latina. Casi la mitad de la población no puede pagar la canasta básica de alimentos y el país es vulnerable a sequías asociadas a El Niño. La prevalencia de subalimentación es del 12,7 % (2024) y la inseguridad alimentaria moderada o grave, del 49 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Sequías y El Niño en el Corredor Seco",
+          "detail": "Las sequías asociadas a El Niño reducen las cosechas de subsistencia y los ingresos rurales. El GRFC identifica el clima extremo como conductor principal.",
+          "source": "GRFC 2026; PMA — Guatemala",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Precios de los alimentos y canasta básica",
+          "detail": "Casi la mitad de la población no puede afrontar el coste de la canasta básica de alimentos. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "PMA — Guatemala; GRFC 2026",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "contributing",
+          "title": "Desigualdad rural y exclusión",
+          "detail": "El retraso del crecimiento afecta sobre todo a comunidades rurales e indígenas. La desigualdad en el acceso a tierra, agua, educación y servicios de salud explica por qué el promedio nacional oculta una parte del problema.",
+          "source": "PMA — Guatemala; UNICEF/OMS/Banco Mundial (JME)",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2026,
+          "tag": "inequality"
+        },
+        {
+          "type": "documented",
+          "title": "Desnutrición crónica infantil",
+          "detail": "El 46,5 % de los menores de cinco años tiene retraso del crecimiento. Es una consecuencia acumulada de carencias alimentarias y sanitarias, y condiciona el desarrollo físico y cognitivo.",
+          "source": "PMA — Guatemala",
+          "url": "https://www.wfp.org/countries/guatemala",
+          "year": 2026,
+          "tag": "nutrition"
+        },
+        {
+          "type": "contributing",
+          "title": "Agricultura de subsistencia vulnerable",
+          "detail": "Una parte de la población depende de la agricultura familiar de secano, con baja productividad y alta exposición a los choques climáticos. El índice de producción de alimentos fue de 104,2 en 2024, apenas por encima de la base.",
+          "source": "FAO/Banco Mundial (AG.PRD.FOOD.XD, 2024)",
+          "url": "https://data.worldbank.org/indicator/AG.PRD.FOOD.XD",
+          "year": 2024,
+          "tag": "production"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Alimentación escolar y compras locales",
+          "agencies": ["PMA (WFP)", "Gobierno de Guatemala"],
+          "status": "en-ejecucion",
+          "statusNote": "La página de país describe la vinculación con pequeños agricultores, pero no publica una cifra de resultados verificados.",
+          "measureIds": ["school_meals", "smallholders", "food_systems"],
+          "objectives": "Mejorar la alimentación infantil y conectar la escuela con la producción local.",
+          "interventions": "Comidas escolares, compra de productos a pequeños agricultores y apoyo a la organización de la producción local.",
+          "results": "El PMA informa de que vincula a pequeños agricultores con el programa de alimentación escolar para que sus productos lleguen a las escuelas. No se verificó una cifra de cobertura ni de impacto nutricional.",
+          "limitations": "La compra local requiere volumen, calidad y logística; la sequía puede reducir la oferta; la cobertura depende de la financiación y de la gestión municipal.",
+          "sources": [
+            { "label": "PMA — Guatemala (página de país)", "url": "https://www.wfp.org/countries/guatemala", "year": 2026 }
+          ]
+        },
+        {
+          "programme": "Preparación y acción anticipatoria ante El Niño",
+          "agencies": ["PMA (WFP)", "FAO", "Gobierno de Guatemala"],
+          "status": "en-ejecucion",
+          "statusNote": "No se verificó en la fuente consultada un resultado cuantitativo de la acción anticipatoria.",
+          "measureIds": ["climate_adaptation", "cash"],
+          "objectives": "Reducir el impacto de la sequía sobre el consumo y los medios de vida rurales.",
+          "interventions": "Alertas tempranas, transferencias anticipadas, apoyo a la producción resiliente y monitoreo de la seguridad alimentaria.",
+          "results": "El PMA informa de que apoya medidas de preparación y acción anticipatoria ante sequías asociadas a El Niño en el Corredor Seco. No se verificó una cifra de personas alcanzadas ni de efecto.",
+          "limitations": "La acción anticipatoria depende de pronósticos y de financiación oportuna; no corrige la desigualdad estructural ni el acceso a la tierra.",
+          "sources": [
+            { "label": "PMA — Guatemala (página de país)", "url": "https://www.wfp.org/countries/guatemala", "year": 2026 }
+          ]
+        }
+      ],
+      "adaptation": {
+        "country": "Haití",
+        "organisation": "PMA (WFP)",
+        "strategy": "Alimentación escolar con compras locales: las escuelas compran una parte de los alimentos a productores del país.",
+        "results": "En Haití, el 74 % de los niños del programa de alimentación escolar comían comidas elaboradas con alimentos comprados localmente.",
+        "applicability": "Guatemala ya vincula la alimentación escolar con pequeños agricultores; la experiencia haitiana sugiere que conviene medir la proporción de compra local y la calidad de la dieta, no solo el número de comidas servidas.",
+        "source": { "label": "PMA — Haití (página de país)", "url": "https://www.wfp.org/countries/haiti", "year": 2026 }
+      },
+      "caveat": "La prevalencia de subalimentación (12,7 %) no refleja la desnutrición crónica infantil (46,5 % de retraso del crecimiento): son indicadores distintos y no deben intercambiarse. El promedio nacional también oculta diferencias entre zonas rurales y urbanas."
+    },
+    "MWI": {
+      "iso3": "MWI",
+      "updated": "2026-11-04",
+      "context": "Malaui es un país pequeño, sin litoral y con una población en rápido crecimiento (21 millones). La mayoría de los medios de vida dependen de la agricultura de secano, lo que lo hace muy vulnerable a sequías e inundaciones. El PMA informa de hasta 3,5 millones de personas en inseguridad alimentaria crónica y de hasta un 40 % de la población afectada por El Niño. La prevalencia de subalimentación es del 24,5 % (2024) y la inseguridad alimentaria moderada o grave, del 81,6 % (2024).",
+      "causes": [
+        {
+          "type": "documented",
+          "title": "Sequía de El Niño y clima extremo",
+          "detail": "En febrero de 2024, un largo periodo seco inducido por El Niño afectó al 44 % de la población. El GRFC identifica el clima extremo como conductor principal.",
+          "source": "PMA — Malaui; GRFC 2026",
+          "url": "https://www.wfp.org/countries/malawi",
+          "year": 2025,
+          "tag": "climate"
+        },
+        {
+          "type": "documented",
+          "title": "Inflación y crisis económica",
+          "detail": "La inflación de los alimentos y la pérdida de poder de compra reducen el acceso de los hogares. El GRFC registra las crisis económicas como segundo conductor.",
+          "source": "GRFC 2026",
+          "url": "https://www.fsinplatform.org/global-report-food-crises",
+          "year": 2025,
+          "tag": "economic"
+        },
+        {
+          "type": "contributing",
+          "title": "Dependencia de la agricultura de secano",
+          "detail": "La producción depende de la lluvia y de insumos accesibles. Una cosecha perdida reduce a la vez el alimento disponible y el ingreso familiar, sin mecanismos de seguro suficientes.",
+          "source": "PMA — Malaui",
+          "url": "https://www.wfp.org/countries/malawi",
+          "year": 2026,
+          "tag": "production"
+        },
+        {
+          "type": "documented",
+          "title": "Pobreza y desnutrición crónica",
+          "detail": "El 35,5 % de los menores de cinco años presenta retraso del crecimiento (2020) y el 75,4 % de la población vivía con menos de 3,00 USD al día en la última encuesta disponible (2019). La pobreza limita la capacidad de recuperarse de cada choque.",
+          "source": "UNICEF/OMS/Banco Mundial (JME); Banco Mundial (SI.POV.DDAY)",
+          "url": "https://data.unicef.org/topic/nutrition/malnutrition/",
+          "year": 2020,
+          "tag": "poverty"
+        },
+        {
+          "type": "documented",
+          "title": "Crisis alimentaria aguda tras El Niño",
+          "detail": "Tras la sequía de 2024, el PMA informa de 5,7 millones de personas en inseguridad alimentaria aguda y de 1,6 millones de personas alcanzadas por la respuesta.",
+          "source": "PMA — Malaui",
+          "url": "https://www.wfp.org/countries/malawi",
+          "year": 2026,
+          "tag": "access"
+        }
+      ],
+      "unResponse": [
+        {
+          "programme": "Respuesta alimentaria y nutricional de emergencia",
+          "agencies": ["PMA (WFP)", "UNICEF", "FAO", "Gobierno de Malaui"],
+          "status": "resultados",
+          "statusNote": "Se presentan como resultados verificados las personas alcanzadas y las tasas de recuperación nutricional.",
+          "measureIds": ["emergency_food", "nutrition", "cash", "climate_adaptation"],
+          "objectives": "Cubrir las necesidades alimentarias tras la sequía y tratar la desnutrición aguda.",
+          "interventions": "Distribuciones de alimentos y transferencias, tratamiento de la desnutrición aguda moderada y grave, y apoyo a la recuperación de medios de vida.",
+          "results": "El PMA informa de 5,7 millones de personas en inseguridad alimentaria aguda, 1,6 millones de personas alcanzadas y, entre 2024 y 2025, 39.700 personas tratadas por desnutrición aguda moderada y más de 30.700 por desnutrición aguda grave, con tasas de recuperación del 89 % y del 91 % respectivamente.",
+          "limitations": "La financiación puede interrumpir el tratamiento; las inundaciones y sequías se suceden antes de que los hogares se recuperen; el tratamiento nutricional no corrige la pobreza ni la dependencia agrícola.",
+          "sources": [
+            { "label": "PMA — Malaui (página de país)", "url": "https://www.wfp.org/countries/malawi", "year": 2026 }
+          ]
+        }
+      ],
+      "adaptation": {
+        "country": "Bangladesh",
+        "organisation": "PMA (WFP)",
+        "strategy": "Acción anticipatoria: entregar ayuda antes del desastre a partir de pronósticos, en lugar de esperar a que ocurra la crisis.",
+        "results": "En 2024, el PMA alcanzó en Bangladesh a casi 4 millones de personas con apoyo de emergencia y resiliencia, la cifra más alta en años recientes.",
+        "applicability": "Malaui ya recibe apoyo de acción anticipatoria, pero la experiencia de Bangladesh muestra que se necesita financiación previa, alertas creíbles y coordinación con el Gobierno. La sequía lenta y las inundaciones repentinas requieren diseños distintos.",
+        "source": { "label": "PMA — Bangladesh (página de país)", "url": "https://www.wfp.org/countries/bangladesh", "year": 2026 }
+      },
+      "caveat": "El índice de producción de alimentos de Malaui fue de 147,2 en 2024, por encima de la base 2014-2016 = 100. Eso no contradice la crisis: el índice mide volumen agregado y no captura pérdidas locales, acceso, precios ni la calidad de la dieta."
+    }
+  }
+}

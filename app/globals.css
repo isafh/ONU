@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f3ea;
+  --color-paper-2: #f1ebdd;
+  --color-ink: #17130e;
+  --color-ink-2: #3a3128;
+  --color-muted: #6b6157;
+  --color-line: #ded4c2;
+  --color-amber: #d99a2b;
+  --color-amber-soft: #f0c778;
+  --color-terracotta: #b4472e;
+  --color-rust: #7f2b19;
+  --color-olive: #5e6b3f;
+  --color-deep: #241a12;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces Variable", ui-serif, Georgia, serif;
+}
+
+:root {
+  color-scheme: light;
+  --shadow-soft: 0 1px 0 rgb(23 19 14 / 0.04), 0 12px 32px -18px rgb(23 19 14 / 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-amber-soft);
+  color: var(--color-ink);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Tipografía editorial */
+.display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 30, "WONK" 0;
+  letter-spacing: -0.03em;
+  line-height: 0.98;
+  font-weight: 600;
+}
+.kicker {
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.prose-editorial p {
+  max-width: 68ch;
+  line-height: 1.7;
+}
+
+.hairline {
+  border-color: color-mix(in srgb, var(--color-ink) 12%, transparent);
+}
+
+.card {
+  background: #fffdf8;
+  border: 1px solid color-mix(in srgb, var(--color-ink) 10%, transparent);
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+}
+
+.grain {
+  background-image: radial-gradient(circle at 1px 1px, rgb(23 19 14 / 0.045) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Animaciones suaves */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise, .reveal { animation: none !important; transition: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+/* Slider */
+input[type="range"].hunger-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 38px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"].hunger-range::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #e9dfcd, #f0c778 45%, #d99a2b 70%, #b4472e 88%, #7f2b19);
+  border: 1px solid rgb(23 19 14 / 0.12);
+}
+input[type="range"].hunger-range::-moz-range-track {
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #e9dfcd, #f0c778 45%, #d99a2b 70%, #b4472e 88%, #7f2b19);
+  border: 1px solid rgb(23 19 14 / 0.12);
+}
+input[type="range"].hunger-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: #fffdf8;
+  border: 3px solid var(--color-ink);
+  box-shadow: 0 2px 8px rgb(23 19 14 / 0.25);
+}
+input[type="range"].hunger-range::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fffdf8;
+  border: 3px solid var(--color-ink);
+  box-shadow: 0 2px 8px rgb(23 19 14 / 0.25);
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #cfc3ae; border-radius: 999px; border: 3px solid var(--color-paper); }
+
+/* Mapa */
+.map-country {
+  transition: fill 160ms ease, opacity 160ms ease;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+}
+.map-country:hover {
+  filter: brightness(1.06) saturate(1.05);
+}
+.map-country.is-blind:hover {
+  fill: #d8ccb4;
+}
+.map-country.is-selected {
+  stroke: #17130e;
+  stroke-width: 1.6;
+}
+
+@media print {
+  .no-print { display: none; }
+  body { background: white; }
+}
