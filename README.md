@@ -194,19 +194,41 @@ La página `/metodologia/` contiene la versión pública y resumida de esta docu
 
 ## Despliegue
 
-El build genera archivos estáticos en `out/`. Sirve esa carpeta con cualquier CDN o hosting estático. No hay variables de entorno, secretos ni funciones serverless.
+El build genera archivos estáticos en `out/`. Sirve esa carpeta con cualquier CDN o hosting estático. No hay secretos ni funciones serverless.
 
 ### GitHub Pages (sitio compilado)
 
-GitHub Pages publica archivos, no ejecuta `next build`. La vía más simple —y la única que no exige tocar rutas— es un repositorio de usuario:
+Hay dos formas:
+
+**A. GitHub Actions (recomendada, funciona también en `usuario.github.io/mi-repo/`)**
+
+El repositorio incluye `.github/workflows/nextjs.yml`. En **Settings → Pages → Source** elige **GitHub Actions** y sube los cambios a `main`. El flujo:
+
+1. Ejecuta `actions/configure-pages`, que devuelve la ruta base del sitio (`""` en la raíz, `/mi-repo` en un sitio de proyecto).
+2. Compila con `PAGES_BASE_PATH` igual a esa ruta.
+3. Publica `out/` con `actions/deploy-pages`.
+
+`next.config.mjs` aplica ese valor como `basePath`, de modo que páginas, enlaces y `/_next/` quedan prefijados. `lib/client-data.ts` prefija también las descargas de `public/data/*.json` (`assetUrl()`), que es lo que faltaba y provocaba los **404 de los JSON** en `github.io/mi-repo/`. Si el `basePath` llega inyectado por otra vía, `assetUrl()` lo deduce del primer script de Next como respaldo.
+
+**B. Subida manual de `out/` a un repositorio de usuario**
 
 1. Crea un repositorio **público** llamado `TUUSUARIO.github.io`.
-2. Sube **el contenido** de `out/` (no la carpeta `out`) a la raíz del repositorio.
-3. Comprueba que existe `.nojekyll` en la raíz. Ya se genera desde `public/.nojekyll`; sin él, Pages ignora la carpeta `_next/` y el sitio queda sin estilos ni JavaScript.
-4. En el repositorio: **Settings → Pages → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`.
-5. El sitio queda en `https://TUUSUARIO.github.io/` y la versión móvil en `https://TUUSUARIO.github.io/movil/`.
+2. Genera el sitio con `npm run build` (sin `PAGES_BASE_PATH`, porque se publica en la raíz).
+3. Sube **el contenido** de `out/` (no la carpeta `out`) a la raíz del repositorio.
+4. Comprueba que existe `.nojekyll` en la raíz. Ya se genera desde `public/.nojekyll`; sin él, Pages ignora la carpeta `_next/` y el sitio queda sin estilos ni JavaScript.
+5. En el repositorio: **Settings → Pages → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`.
+6. El sitio queda en `https://TUUSUARIO.github.io/` y la versión móvil en `https://TUUSUARIO.github.io/movil/`.
 
-La aplicación usa rutas absolutas (`/_next/...`, `/data/...`, `/movil/`), así que **no funciona en la URL de un proyecto** (`TUUSUARIO.github.io/mi-repo/`) sin configurar `basePath` y prefijar también las rutas de `public/data/`. Para un repositorio con nombre distinto, usa Vercel o Netlify, que publican en la raíz del dominio.
+Para compilar manualmente un sitio de proyecto (por ejemplo, `https://TUUSUARIO.github.io/mi-repo/`), usa la misma variable que el flujo de trabajo:
+
+```powershell
+$env:PAGES_BASE_PATH = "/mi-repo"
+npm run build
+```
+
+En PowerShell, para volver al build de raíz: `Remove-Item Env:PAGES_BASE_PATH`.
+
+Nota: si publicas en un subdirectorio, abre el sitio desde la URL con barra final (`/mi-repo/`). Un `fetch("/data/...")` sin prefijo seguiría apuntando a la raíz del dominio; por eso todas las cargas de datos pasan por `assetUrl()`.
 
 ### Código fuente en GitHub
 
