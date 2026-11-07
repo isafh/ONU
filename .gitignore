@@ -17,3 +17,6 @@ Thumbs.db
 # Registros y temporales
 *.log
 .env*.local
+
+# python
+__pycache__/
